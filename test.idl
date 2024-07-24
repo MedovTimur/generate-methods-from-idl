@@ -1,0 +1,9 @@
+constructor {
+  New : (name: str, symbol: str, decimals: u8);
+};
+
+service Vft {
+  Burn : (from: actor_id, value: u8) -> bool;
+  Mint : (to: actor_id, value: u8) -> bool;
+};
+
